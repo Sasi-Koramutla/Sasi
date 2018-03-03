@@ -1,0 +1,120 @@
+
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+    }
+    
+    body {
+      font-size: 24px;
+      background-color: #ccc;
+            }
+
+    header {
+           background-color: rgba(44, 140, 153, 0.8);
+           color:white;
+          }
+   nav {
+            background-color: rgb(248, 250, 250);
+            color:#333;
+            margin-bottom: 20px;
+           }
+
+           hr{
+               border-width: 2px;
+               margin-bottom: 20px;
+               margin-left:2.5%;
+               width:95%;
+           }
+    
+    /*div{
+    width:98%;
+    margin:auto;
+    /*background-color: rgb(248, 250, 250);
+       }*/
+
+    #p1{
+        background-color: rgb(248, 250, 250);
+             }
+    #p2{
+        padding: 5px;  
+       }
+       #p3{
+        background-color: rgba(44, 140, 153, 0.8);
+        padding: 10px;  
+       }
+
+ 
+
+              
+     footer {
+            position:relative;
+            top:-16px;
+            background-color: #333;
+            padding: 40px;
+            color:white;
+            }
+
+            @media screen and (max-width: 980px) {
+                body {
+                  background-color: rgb(26, 23, 23);
+                }
+              
+                .wrapper {
+                  /* Box-model */
+                  width: 100%;
+                  padding: 20px;
+                }
+              
+                #main-content,
+                #sidebar {
+                  width: 80%;
+                }
+              
+                #sidebar {
+                  margin-top: 40px;
+                }
+              }
+
+            @media screen and (max-width: 768px) {
+                body {
+                  background-color: #333;
+                }
+              
+                .wrapper {
+                  /* Box-model */
+                  width: 100%;
+                  padding: 20px;
+                }
+              
+                #main-content,
+                #sidebar {
+                  width: 100%;
+                }
+              
+                #sidebar {
+                  margin-top: 40px;
+                }
+              }
+              
+              
+              @media screen and (max-width: 640px) {
+                body {
+                  background-color: #333;
+                }
+              
+                .wrapper {
+                  /* Box-model */
+                  width: 100%;
+                  padding: 20px;
+                }
+              
+                #main-content,
+                #sidebar {
+                  width: 100%;
+                }
+              
+                #sidebar {
+                  margin-top: 40px;
+                }
+              }
